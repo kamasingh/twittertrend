@@ -2,7 +2,7 @@ def registry = 'https://habbadabba.jfrog.io'
 pipeline{
     agent {
         node{
-            label "slave-java"
+            label "slave-new"
         }
     }
     
